@@ -9,7 +9,7 @@
 
 // remove blurring
 var obfDiv = document.getElementsByClassName('obfuscated-content');
-obfDiv[0].setAttribute('style', 'filter: blur(0px) !important; opacity: 1 !important; -webkit-filter: blur(0px) !important');
+obfDiv[0].setAttribute('style', 'filter: blur(0px) !important; opacity: 1 !important; -webkit-filter: blur(0px) !important; -webkit-filter: url() !important');
 
 // "decrypt" all paragraphs
 var obfs = document.getElementsByClassName('obfuscated');
